@@ -39,7 +39,7 @@ function doRequest(callback,uri,data={},method="GET"){
 	if(method=='GET'){
 		var paras=[];
 		for(var key in data){
-			if(object.hasOwnProperty(key)){
+			if(data.hasOwnProperty(key)){
 				paras.push(key+'='+encodeURIComponent(data[key]));
 			}
 		}
