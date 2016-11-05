@@ -23,8 +23,6 @@ var generalRequestHeader={
 };
 var baseUrl="https://frc-api.firstinspires.org";
 
-var generalRequestConfig=;
-
 var api=function (username,password,season='2017',apiVersion='v2.0'){
 	var authString=(new Buffer(username+":"+password)).toString('base64');
 	generalRequestHeader['Authorization']='Basic '+authString;
