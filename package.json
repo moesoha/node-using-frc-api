@@ -16,5 +16,13 @@
     "frc",
     "api",
     "first"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohaking/node-using-frc-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sohaking/node-using-frc-api/issues"
+  },
+  "homepage": "https://github.com/sohaking/node-using-frc-api#readme"
 }

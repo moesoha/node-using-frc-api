@@ -4,6 +4,8 @@
 
 Start using the module in a simple way:
 
+	$ npm install using-frc-api
+
     var FRCAPI=require('using-frc-api');
     var api=new FRCAPI('username','password','2017','v2.0');
 
