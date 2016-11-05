@@ -1,6 +1,6 @@
 {
   "name": "using-frc-api",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Using FRC API test",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,12 @@
   "author": "Soha King",
   "license": "MIT",
   "dependencies": {
-    "mongodb": "^2.2.11",
-    "mongoskin": "^2.1.0",
     "request": "^2.76.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [
+    "frc",
+    "api",
+    "first"
+  ]
 }
